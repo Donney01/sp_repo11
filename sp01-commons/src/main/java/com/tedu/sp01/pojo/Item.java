@@ -12,5 +12,9 @@ public class Item {
 	private Integer id;
 	//姓名
 	private String name;
+	//号码
 	private Integer number;
+	
+	
+	
 }
