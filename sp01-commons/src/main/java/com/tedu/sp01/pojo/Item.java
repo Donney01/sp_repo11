@@ -14,6 +14,6 @@ public class Item {
 	private String name;
 	//号码
 	private Integer number;
+
 	
-	//2323232323
 }
