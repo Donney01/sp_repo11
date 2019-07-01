@@ -6,14 +6,6 @@ spring:
         service-id: config-server
       name: item-service
       profile: dev
-
-spring:
-  cloud:
-    inetutils:
-      ignored-interfaces:
-        - VM.*
-      preferred-networks:
-        - 172.251.8
    
 eureka:
   client:
