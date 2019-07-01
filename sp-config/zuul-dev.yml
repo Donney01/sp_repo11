@@ -22,20 +22,6 @@ zuul:
 #    user-service: /user-service/**
 #    order-service: /order-service/**
     
-ribbon:
-  ConnectTimeout: 1000
-  ReadTimeout: 1000
-  MaxAutoRetriesNextServer: 1
-  MaxAutoRetries: 1
-
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 500
-
 management:
   endpoints:
     web:
