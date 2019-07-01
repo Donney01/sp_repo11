@@ -3,6 +3,4 @@ spring:
     inetutils:
       ignored-interfaces:
         - VM.*
-      preferred-networks:
-        - 172.251.8
    

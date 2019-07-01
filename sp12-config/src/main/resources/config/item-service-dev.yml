@@ -16,6 +16,12 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+    
+spring:
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - VM.*
 ---
 spring:
   profiles: item1

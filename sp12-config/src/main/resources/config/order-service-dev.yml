@@ -27,7 +27,12 @@ management:
     web:
       exposure:
         include: hystrix.stream
-        
+
+spring:
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - VM.*       
 ---
 spring:
   profiles: order1

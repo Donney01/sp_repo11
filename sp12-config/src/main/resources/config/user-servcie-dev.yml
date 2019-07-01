@@ -28,7 +28,11 @@ management:
       exposure:
         include: refresh      
       
-      
+spring:
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - VM.*    
       
       
       
